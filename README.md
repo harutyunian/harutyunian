@@ -1,7 +1,5 @@
 <div align="center">
-  <a href="https://realgta.com">
-    <img src="./assets/hero-card.svg" alt="Arthur Harutyunyan — Full-Stack Software Engineer & AI Systems Architect" width="100%" />
-  </a>
+  <img src="https://raw.githubusercontent.com/harutyunian/harutyunian/main/assets/hero-card.svg" alt="Arthur Harutyunyan — Full-Stack Software Engineer & AI Systems Architect" width="100%" />
 </div>
 
 <br />
