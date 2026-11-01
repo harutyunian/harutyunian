@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090e"/>
+      <stop offset="52%" stop-color="#0f1523"/>
+      <stop offset="100%" stop-color="#141024"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2e63"/>
+      <stop offset="50%" stop-color="#ffb800"/>
+      <stop offset="100%" stop-color="#00f0ff"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161d2f" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#0d121d" stop-opacity="0.94"/>
+    </linearGradient>
+    <radialGradient id="glowPink" cx="18%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#ff2e63" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ff2e63" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="85%" cy="75%" r="45%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="340" rx="18" fill="url(#bgGrad)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#glowPink)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#glowCyan)"/>
+
+  <!-- Top Accent Line -->
+  <rect x="0" y="0" width="1200" height="4" rx="2" fill="url(#accentGrad)"/>
+
+  <!-- Left Content -->
+  <g transform="translate(64, 58)">
+    <!-- Status Pill -->
+    <rect x="0" y="0" width="298" height="30" rx="15" fill="#131b2e" stroke="#26334d" stroke-width="1"/>
+    <circle cx="18" cy="15" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="34" y="19" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11.5" font-weight="700" letter-spacing="1.4">SYSTEMS ONLINE · PRODUCTION</text>
+
+    <!-- Main Name -->
+    <text x="0" y="84" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.8">Arthur Harutyunyan</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="120" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="19" font-weight="500">
+      Full-Stack Software Engineer · <tspan fill="#ffb800" font-weight="700">Autonomous AI Agents</tspan> &amp; <tspan fill="#00f0ff" font-weight="700">High-Traffic Web Platforms</tspan>
+    </text>
+
+    <!-- Description -->
+    <text x="0" y="158" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5">
+      Architecting full-stack TypeScript/Next.js platforms, Go microservices, and 24/7 multimodal AI media pipelines.
+    </text>
+
+    <!-- Bottom Metric Badges -->
+    <g transform="translate(0, 188)">
+      <rect x="0" y="0" width="185" height="42" rx="10" fill="url(#cardBg)" stroke="#ff2e63" stroke-opacity="0.45" stroke-width="1.2"/>
+      <text x="16" y="18" fill="#ff2e63" font-family="monospace" font-size="10.5" font-weight="700" letter-spacing="1">FLAGSHIP PORTAL</text>
+      <text x="16" y="34" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="800">REALGTA.COM</text>
+
+      <rect x="200" y="0" width="185" height="42" rx="10" fill="url(#cardBg)" stroke="#ffb800" stroke-opacity="0.45" stroke-width="1.2"/>
+      <text x="216" y="18" fill="#ffb800" font-family="monospace" font-size="10.5" font-weight="700" letter-spacing="1">SPORTS MEDIA</text>
+      <text x="216" y="34" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="800">GOLASON.COM</text>
+
+      <rect x="400" y="0" width="185" height="42" rx="10" fill="url(#cardBg)" stroke="#00f0ff" stroke-opacity="0.45" stroke-width="1.2"/>
+      <text x="416" y="18" fill="#00f0ff" font-family="monospace" font-size="10.5" font-weight="700" letter-spacing="1">SAAS ENGINE</text>
+      <text x="416" y="34" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="800">DAWR.ME</text>
+    </g>
+  </g>
+
+  <!-- Right Terminal Card -->
+  <g transform="translate(800, 48)">
+    <rect x="0" y="0" width="340" height="244" rx="14" fill="#0b0f19" stroke="#26334d" stroke-width="1.5"/>
+    <circle cx="20" cy="20" r="5.5" fill="#ff5f56"/>
+    <circle cx="38" cy="20" r="5.5" fill="#ffbd2e"/>
+    <circle cx="56" cy="20" r="5.5" fill="#27c93f"/>
+    <text x="122" y="24" fill="#64748b" font-family="monospace" font-size="11.5">arthur@prod:~</text>
+    <line x1="0" y1="38" x2="340" y2="38" stroke="#1e293b" stroke-width="1"/>
+
+    <text x="20" y="66" fill="#00f0ff" font-family="monospace" font-size="12.5">$ status --production</text>
+    <text x="20" y="92" fill="#e2e8f0" font-family="monospace" font-size="12">▸ Stack:    <tspan fill="#ffb800">TS · Next.js · Go · Py</tspan></text>
+    <text x="20" y="116" fill="#e2e8f0" font-family="monospace" font-size="12">▸ AI Core:  <tspan fill="#ff2e63">Gemini 2.5 · Vision</tspan></text>
+    <text x="20" y="140" fill="#e2e8f0" font-family="monospace" font-size="12">▸ Infra:    <tspan fill="#10b981">Linux · Nginx · Supabase</tspan></text>
+    <text x="20" y="164" fill="#e2e8f0" font-family="monospace" font-size="12">▸ Repos:    <tspan fill="#38bdf8">44+ Public &amp; Private</tspan></text>
+    <text x="20" y="188" fill="#e2e8f0" font-family="monospace" font-size="12">▸ Uptime:   <tspan fill="#10b981">99.98% Autonomous</tspan></text>
+    <text x="20" y="218" fill="#94a3b8" font-family="monospace" font-size="12">$ shipping_daily --1000x <tspan fill="#10b981">█</tspan></text>
+  </g>
+</svg>
