@@ -49,13 +49,13 @@
     <text x="0" y="84" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="44" font-weight="900" letter-spacing="-0.8">Arthur Harutyunyan</text>
 
     <!-- Subtitle -->
-    <text x="0" y="120" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="19" font-weight="500">
-      Full-Stack Software Engineer · <tspan fill="#ffb800" font-weight="700">Autonomous AI Agents</tspan> &amp; <tspan fill="#00f0ff" font-weight="700">High-Traffic Web Platforms</tspan>
+    <text x="0" y="120" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="16" font-weight="500">
+      Full-Stack Software Engineer · <tspan fill="#ffb800" font-weight="700">Autonomous AI Agents</tspan> &amp; <tspan fill="#00f0ff" font-weight="700">Web Platforms</tspan>
     </text>
 
     <!-- Description -->
-    <text x="0" y="158" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5">
-      Architecting full-stack TypeScript/Next.js platforms, Go microservices, and 24/7 multimodal AI media pipelines.
+    <text x="0" y="156" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">
+      Architecting TypeScript/Next.js platforms, Go microservices &amp; 24/7 multimodal AI pipelines.
     </text>
 
     <!-- Bottom Metric Badges -->
